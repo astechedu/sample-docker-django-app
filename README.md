@@ -1,4 +1,5 @@
-# sample-docker-django-app
+# Dockerized Django App
+
 This is sample docker django app.
 
 
