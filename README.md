@@ -27,6 +27,6 @@ This is sample docker django app.
 
 #Running container
 
-	docker run --name django-app -p 8080:80 -d dockerized_django
+	docker run --name django-app -p 8080:8000 -d dockerized_django
 
 	
