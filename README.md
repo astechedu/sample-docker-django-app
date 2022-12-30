@@ -18,3 +18,15 @@ This is sample docker django app.
 
     EXPOSE 8000
     CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+
+
+
+#Building image
+
+	docker build . -t dockerized_django
+
+#Running container
+
+	docker run --name django-app -p 8080:80 -d dockerized_django
+
+	
